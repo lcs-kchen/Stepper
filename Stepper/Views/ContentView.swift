@@ -13,28 +13,28 @@ struct ContentView: View {
             
             AdditionView()
                 .tabItem {
-                    Image(systemName: "")
+                    Image(systemName: "plus")
                     Text("Addtion")
                 }
                 .tag(1)
             
             SubtractionView()
                 .tabItem {
-                    Image(systemName: "globe")
+                    Image(systemName: "minus")
                     Text("Subtraction")
                 }
                 .tag(2)
             
             MultiplicationView()
                 .tabItem {
-                    Image(systemName: "globe")
+                    Image(systemName: "multiply")
                     Text("Multiplication")
                 }
                 .tag(3)
             
             DivisionView()
                 .tabItem {
-                    Image(systemName: "globe")
+                    Image(systemName: "divide")
                     Text("Division")
                 }
                 .tag(4)
