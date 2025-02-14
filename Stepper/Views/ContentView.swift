@@ -13,10 +13,31 @@ struct ContentView: View {
             
             AdditionView()
                 .tabItem {
-                    Image(systemName: "globe")
-                    Text("World Clock")
+                    Image(systemName: "")
+                    Text("Addtion")
                 }
                 .tag(1)
+            
+            SubtractionView()
+                .tabItem {
+                    Image(systemName: "globe")
+                    Text("Subtraction")
+                }
+                .tag(2)
+            
+            MultiplicationView()
+                .tabItem {
+                    Image(systemName: "globe")
+                    Text("Multiplication")
+                }
+                .tag(3)
+            
+            DivisionView()
+                .tabItem {
+                    Image(systemName: "globe")
+                    Text("Division")
+                }
+                .tag(4)
         }
     }
 }
